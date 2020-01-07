@@ -1,0 +1,16 @@
+server:
+  port: 8761
+eureka:
+  server:
+    enable-self-preservation: false
+    response-cache-auto-expiration-in-seconds: 10
+    response-cache-update-interval-ms: 3
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: enkeshu-eureka
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
