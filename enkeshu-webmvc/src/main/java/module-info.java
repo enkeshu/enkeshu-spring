@@ -4,4 +4,5 @@
  */
 module enkeshu.webmvc {
     requires enkeshu.feign;
+    requires enkeshu.core;
 }
