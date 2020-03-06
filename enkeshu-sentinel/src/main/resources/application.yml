@@ -1,0 +1,10 @@
+server:
+  port: 8956
+spring:
+  application:
+    name: enkeshu-sentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+        port: 8719
